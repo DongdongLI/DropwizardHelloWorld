@@ -1,0 +1,9 @@
+database:
+    driverClass: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    user: sa
+    password: 1311
+    url: jdbc:sqlserver://localhost:50583;databaseName=test
+    properties:
+        charSet: UTF-8
+        hibernate.dialect: org.hibernate.dialect.SQLServerDialect
+    
