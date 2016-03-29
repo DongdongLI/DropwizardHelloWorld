@@ -1,8 +1,8 @@
 database:
-    driverClass: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    user: sa
-    password: 1311
-    url: jdbc:sqlserver://localhost:50583;databaseName=test
+    driverClass: net.sourceforge.jtds.jdbc.Driver
+    user: <redacted>
+    password: <redacted>
+    url: jdbc:jtds:sqlserver://<redacted>:1433/<redacted>;sendStringParametersAsUnicode=false;loginTimeout=15;socketTimeout=60
     properties:
         charSet: UTF-8
         hibernate.dialect: org.hibernate.dialect.SQLServerDialect
